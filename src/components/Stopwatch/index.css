@@ -1,0 +1,89 @@
+/* Write CSS here */
+.timer-app-main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 95vh;
+  margin-top: -20px;
+  padding: 50px;
+  background-size: cover;
+}
+.timer-app-main-head {
+  color: #333333;
+  font-family: 'roboto';
+  text-align: center;
+}
+.time-card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  padding-bottom: 48px;
+}
+.watch-logo-head-container {
+  display: flex;
+  align-items: center;
+  width: 39%;
+  justify-content: space-around;
+  margin-bottom: -10px;
+}
+.timer-card-heading {
+  font-size: 26px;
+  font-weight: 800;
+}
+.time-ele {
+  font-size: 30px;
+  margin-left: 5px;
+}
+.btn-container {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.timer-btn {
+  padding: 7px 16px;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  font-family: 'roboto';
+  font-weight: 700;
+  border-radius: 5px;
+}
+.stop-btn {
+  background-color: #ef0d36;
+}
+.start-btn {
+  background-color: #1db05f;
+}
+.reset-btn {
+  background-color: #eaa800;
+}
+
+@media (min-width: 700px) {
+  .timer-app-main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+  }
+  .timer-app-main-head {
+    margin-left: 200px;
+    text-align: left;
+    font-size: 40px;
+  }
+  .time-card-container {
+    width: 50%;
+  }
+  .watch-logo-head-container {
+    width: 20%;
+  }
+  .timer-card-heading {
+    font-size: 30px;
+  }
+  .btn-container {
+    width: 70%;
+    margin-top: 10px;
+  }
+  .timer-btn {
+    padding: 6px 30px;
+    font-size: 17px;
+  }
+}
